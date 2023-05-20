@@ -9,7 +9,7 @@ const LoginPage = ({ history }) => {
     const auth = getAuth(app);
     const [form, setForm] = useState({
         email: 'dlgusdhr0501@naver.com',
-        password: '1234'
+        password: '123456'
     })
     const { email, password } = form
     const [loading, setLoading] = useState(false)
