@@ -24,7 +24,7 @@ const CartPage = () => {
     }
 
     const deleteBook = async (id) => {
-        if (window.confirm('정말 데이터를 삭제하시겠습니까?'))
+        if (window.confirm('정말 데이터를 삭제하시겠습니까.?'))
             await remove(ref(db, `book/${uid}/${id}`));
     }
 
