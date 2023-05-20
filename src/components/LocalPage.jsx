@@ -22,7 +22,7 @@ const LocalPage = ({ history }) => {
 
         const url = "https://dapi.kakao.com/v2/local/search/keyword.JSON";
         const config = {
-            headers: { "Authorization": 'KakaoAK 7d083064dcb5ec4a4a7ddbbf9b1025c5' },
+            headers: { "Authorization": 'KakaoAK 7acccc029182f882919d32c390912d19' },
             params: { "query": query, "size": 5, "page": page }
         }
 
